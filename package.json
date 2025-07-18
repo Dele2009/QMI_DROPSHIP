@@ -1,0 +1,24 @@
+{
+  "name": "dropship",
+  "version": "1.0.0",
+  "description": "A simple dropshipping management application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "tailwindcss -i ../input.css -o ./src/output.css --watch"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/dropship.git"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
